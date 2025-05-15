@@ -10,8 +10,8 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-4 font-sans">
       <header className="bg-white p-4 rounded-lg shadow-md mb-6">
-        <h1 className="text-3xl font-bold text-gray-800">Telecom System Visualization Suite</h1>
-        <p className="text-gray-600 mt-2">Interactive visualization of caller identification and routing system</p>
+        <h1 className="text-3xl font-bold text-gray-800">CPR Architecture Visualization Suite</h1>
+        <p className="text-gray-600 mt-2">Interactive visualization of traveler profile synchronization system</p>
       </header>
       
       <div className="mb-6">
@@ -32,7 +32,7 @@ const App = () => {
             className={`py-2 px-4 font-medium ${activeTab === 2 ? 'border-b-2 border-blue-500 text-blue-600' : 'text-gray-600'}`}
             onClick={() => setActiveTab(2)}
           >
-            Scenario Simulator
+            Profile Update Simulator
           </button>
         </div>
       </div>
@@ -44,7 +44,7 @@ const App = () => {
       </div>
       
       <footer className="mt-8 text-center text-gray-600 text-sm">
-        <p>Telecom System Visualization Suite • {new Date().getFullYear()}</p>
+        <p>CPR Architecture Visualization Suite • {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
